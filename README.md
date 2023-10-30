@@ -1,3 +1,3 @@
 # X-Dim: Unlocking the Power of Cross-Dimensional Semantic Dependency for Image-Text Matching
 
-Codes and pre-trained models will be organized and released.
+The code will be released before 2023.11.6.
