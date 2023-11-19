@@ -1,23 +1,8 @@
-# Enhanced Semantic Similarity Learning Framework for Image-Text Matching
+# Unlocking the Power of Cross-Dimensional Semantic Dependency for Image-Text Matching
 
 <img src="https://github.com/CrossmodalGroup/ESL/blob/main/lib/pytorch-logo-dark.png" width="10%"> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
-Official PyTorch implementation of the paper [Enhanced Semantic Similarity Learning Framework for Image-Text Matching](https://www.researchgate.net/publication/373318149_Enhanced_Semantic_Similarity_Learning_Framework_for_Image-Text_Matching).
-
-Please use the following bib entry to cite this paper if you are using any resources from the repo.
-
-```
-@article{zhang2023enhanced,
-  title={Enhanced Semantic Similarity Learning Framework for Image-Text Matching},
-  author={Zhang, Kun and Hu, Bo and Zhang, Huatian and Li, Zhe and Mao, Zhendong},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2023},
-  publisher={IEEE}
-}
-```
-
-
-We referred to the implementations of [GPO](https://github.com/woodfrog/vse_infty/blob/master/README.md) to build up our codebase. 
+Official PyTorch implementation of the paper [Unlocking the Power of Cross-Dimensional Semantic Dependency for Image-Text Matching](https://www.researchgate.net/publication/374556150_Unlocking_the_Power_of_Cross-Dimensional_Semantic_Dependency_for_Image-Text_Matching). We referred to the implementations of [GPO](https://github.com/woodfrog/vse_infty/blob/master/README.md) to build up our codebase. 
 
 ## Motivation
 <div align=center><img src="https://github.com/CrossmodalGroup/ESL/blob/main/motivation.png" width="50%" ></div>
@@ -106,9 +91,16 @@ To do cross-validation on MSCOCO, pass `fold5=True` with a model trained using
 python testall.py
 ```
 
-To ensemble model, specify the model_path in test_stack.py, and run
-```bash
-python test_stack.py
-```
 
+Please use the following bib entry to cite this paper if you are using any resources from the repo.
+
+```
+@inproceedings{zhang2023unlocking,
+  title={Unlocking the Power of Cross-Dimensional Semantic Dependency for Image-Text Matching},
+  author={Zhang, Kun and Zhang, Lei and Hu, Bo and Zhu, Mengxiao and Mao, Zhendong},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={4828--4837},
+  year={2023}
+}
+```
 
